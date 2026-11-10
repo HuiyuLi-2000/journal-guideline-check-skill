@@ -1,0 +1,4 @@
+interface:
+  display_name: "Journal Guideline Check"
+  short_description: "Checks a manuscript against a journal's author guidelines item by item and reports compliance gaps that could lead to desk rejection"
+  default_prompt: "Use $journal-guideline-check to check whether my manuscript complies with the journal's author guidelines: manuscript <manuscript path>, guideline <local guideline path, PDF, or web URL>."
