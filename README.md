@@ -18,8 +18,8 @@ Ambiguous clauses are quoted with their plausible readings and left for you to d
 
 | | Formats |
 |---|---|
-| Manuscript | a single Markdown or LaTeX file, a LaTeX project directory, or a PDF |
-| Author guidelines | a local Markdown or PDF file, or a web URL |
+| Manuscript | a single Markdown file or a LaTeX file (recommended), a LaTeX project directory(recommended), or a PDF |
+| Author guidelines | a local Markdown file (recommended), a local PDF file, or a web URL |
 
 Markdown and LaTeX sources are read as they are and keep their structure. PDFs contribute a text layer plus page measurements (page count, fonts, line spacing, columns, image DPI). Web guidelines are snapshotted with their URL and fetch time so every quoted clause stays traceable.
 
@@ -38,10 +38,6 @@ In conversation you get only the ❌ and ⚠️ summaries.
 ## Scope
 
 This skill checks compliance against guidelines you supply. It does not select journals, run a generic pre-submission check without a specific guideline, or rewrite the manuscript.
-
-## Limitations
-
-The skill is pure instructions with no bundled scripts; PDF text extraction and web fetching use whatever tools your runtime provides. Scanned PDFs without a text layer are rejected as inputs, and no OCR is attempted. End-to-end behaviour has not been verified against a live manuscript and guideline pair.
 
 ## License
 
